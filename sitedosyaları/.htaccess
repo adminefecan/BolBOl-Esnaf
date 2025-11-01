@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ - [L]
+</IfModule>
+
+<IfModule mod_security.c>
+SecFilterEngine Off
+SecFilterScanPOST Off
+</IfModule>
+
+<FilesMatch "\.php$">
+  Require all granted
+</FilesMatch>
+
+# Bazı hostingler özel karakterli GET'i 403 yapar:
+SetEnvIf Request_URI "chat\.php" AllowAccess
+Order allow,deny
+Allow from all

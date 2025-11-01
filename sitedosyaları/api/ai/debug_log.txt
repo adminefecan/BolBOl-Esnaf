@@ -1,0 +1,35 @@
+Array
+(
+    [method] => GET
+    [headers] => Array
+        (
+            [X-Varnish] => 10396358
+            [Accept-Encoding] => gzip
+            [X-Forwarded-For] => 212.252.125.132, 164.68.98.79
+            [Priority] => u=0, i
+            [Accept-Language] => tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+            [Sec-Fetch-Dest] => document
+            [Sec-Fetch-User] => ?1
+            [Sec-Fetch-Mode] => navigate
+            [Sec-Fetch-Site] => none
+            [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+            [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+            [Upgrade-Insecure-Requests] => 1
+            [Sec-Ch-Ua-Platform] => "Windows"
+            [Sec-Ch-Ua-Mobile] => ?0
+            [Sec-Ch-Ua] => "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+            [X-Forwarded-Proto] => https
+            [X-Forwarded-Server] => bolbolesnaf.efecand.com.tr
+            [X-Forwarded-Host] => bolbolesnaf.efecand.com.tr
+            [X-Real-Ip] => 212.252.125.132
+            [Host] => bolbolesnaf.efecand.com.tr
+        )
+
+    [data] => Array
+        (
+            [user_id] => 2
+            [message] => selam
+        )
+
+)
+14:50:48 GET: {"user_id":"3","message":"selam"}

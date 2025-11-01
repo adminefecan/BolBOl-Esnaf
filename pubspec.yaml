@@ -1,0 +1,42 @@
+name: bolbolesnaf
+description: BolBolEsnaf Paketi - com.bolbol.esnaf
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  image_picker: ^1.1.2
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.2
+  google_fonts: ^6.2.0
+  intl: ^0.19.0
+  url_launcher: ^6.3.0
+  flutter_native_splash: ^2.4.7
+  flutter_launcher_icons: ^0.14.4
+  fl_chart: ^0.68.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/icon.png
+    - assets/
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/icon/icon.png
+  android_gravity: center
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icon/icon.png
+  min_sdk_android: 21
